@@ -1,0 +1,27 @@
+#root {
+    background: #232832;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    overflow: auto;
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2a303c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #191d24;
+    border-radius: 10px;
+}
+
